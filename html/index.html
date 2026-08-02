@@ -3,21 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Restaurante</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <!-- Header-->
+    <!--Define la parte del menu "la barra superior de las opciones"-->
     <header class="header">
         <img class="bg" src="/img/bg.png" alt="Background Image">
         
+        <!-- Cotenedor del menu-->
         <div class="menuContainer">
             <a href="#" class="logo" alt="Logo">Logo</a>
             <input type="checkbox" id="menu">
             <label for="menu">
                 <img class="menuIcon" src="/img/menu.png" alt="Menu Icon">
             </label>
+
+            <!--Opciones-->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <!--Opciones-->
+
+            <!--Carrito-->
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="imgCar" src="/img/car.svg" alt="Carrito">
+                        <div id="carrito">
+                            <table id="listaCarrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Lo llenaremos con JS -->
+                                </tbody>
+                            </table>
+                            <a class="btn3" id="vaciarCarrito" href="#">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--Carrito-->
         </div>
+        <!-- Cotenedor del menu-->
+
+        <!-- Contenedor de informacion -->
+        <div class="headerContent container">
+            <div class="hearderTxt">
+                <h1><span>Bienvenido</span> disfruta de nuestros platillos</h1>
+                <p>
+                    lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam, quod.
+                </p>
+                <a class="btn1" href="#">Informacion</a>
+            </div>
+            <div class ="headerImg">
+                <img src="/img/pl-1.png" alt="Plato de Comida">
+            </div>
+        </div>
+        <!-- Contenedor de informacion -->
+
     </header>
+    <!-- Header-->
+
+
     <script src="/js/script.js"></script>
 </body>
 </html>
