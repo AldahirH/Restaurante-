@@ -8,7 +8,7 @@
     list-style: none;
 }
 
-body {
+body{
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -110,7 +110,7 @@ th, td{
     font-weight: 800;
 }
 
-.bg {
+.bg{
     position: absolute;
     width: 700px;
     top: 0;
@@ -212,7 +212,7 @@ p{
     margin-right: 25px;
 }
 
-.info {
+.info{
     padding: 100px 0;
     position: relative;
 }
@@ -267,7 +267,7 @@ p{
 .box:nth-child(1),
 .box:nth-child(2),
 .box:nth-child(3),
-.box:nth-child(4) {
+.box:nth-child(4){
     display: inline-block;
 }
 
@@ -306,7 +306,7 @@ p{
     background-color: #EF8700;
 }
 
-.btn-3 {
+.btn-3{
     display: inline-block;
     padding: 5px 25px;
     background-color: #FF9000;
@@ -318,17 +318,17 @@ p{
     background-color: #EF8700;
 }
 
-.app {
+.app{
     padding: 30px 0;
     display: flex; 
     align-items: center;
 }
 
-.app-txt {
+.app-txt{
     width: 50%
 }
 
-.descarga {
+.descarga{
     display: flex;
 }
 
@@ -336,7 +336,7 @@ p{
     width: 150px;
 }
 
-.app-img {
+.app-img{
     width: 50%;
     text-align: center;
 }
@@ -345,23 +345,23 @@ p{
     width: 450px;
 }
 
-.footer {
+.footer{
     padding: 50px 0;
     background-color: #FF9000;
 }
 
-.footer-content {
+.footer-content{
     display: flex;
     justify-content: space-between;
 }
 
-.link h3 {
+.link h3{
     font-size: 10px;
     margin-bottom: 15px;
     color: #FFFFFF;
 }
 
-.link a {
+.link a{
     color: #FFFFFF;
     font-size: 16px;
     display: block;
@@ -369,15 +369,15 @@ p{
 }
 
 @media (max-width:991px){
-    .menu {
+    .menu{
         padding: 20px;
     }
 
-    .menu label {
+    .menu label{
         display: initial;
     }
 
-    .menu .navbar {
+    .menu .navbar{
         position: absolute;
         top: 100%;
         left: 0;
@@ -385,31 +385,31 @@ p{
         display: none;
     }
 
-    .menu .navbar ul li {
+    .menu .navbar ul li{
         width: 100%;
     }
 
-    .menu .navbar ul li a:hover {
+    .menu .navbar ul li a:hover{
         color: #FFFFFF;
     }
 
-    .logo {
+    .logo{
         display: none;
     }
 
-    #menu:checked ~ .navbar {
+    #menu:checked ~ .navbar{
         display: initial;
     }
 
-    .submenu:hover #carrito {
+    .submenu:hover #carrito{
         width: 100%;
     }
 
-    .bg {
+    .bg{
         display: none;
     }
 
-    .header-content {
+    .header-content{
         padding: 100px 30px 30px 30px; 
         flex-direction: column;
     } 
@@ -437,5 +437,90 @@ p{
 
     .header-img img{
         width: 300px;
+    }
+
+    .breakfast{
+        padding: 30px;
+    }
+
+    .breakfast-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .breakfast-1{
+        justify-content: space-between;
+        padding: 10px 55px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .info{
+        padding: 30px;
+    }
+
+    .bg-2{
+        display: none;
+    }
+
+    .info-content{
+        flex-direction: column;
+    }
+
+    .info-img{
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-img img{
+        width: 250px;
+        margin-left: 0;
+    }
+
+    .info-txt{
+        width: 100%;
+        text-align: center;
+    }
+
+    .products{
+        padding: 30px;
+    }
+
+    .box-container{
+        margin-top: 25px;
+    }
+
+    .app{
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .app-txt{
+        width: 100%;
+        text-align: center;
+    }
+
+    .descarga{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-img{
+        width: 100%;
+        text-align: center;
+    }
+
+    .app-img img{
+        width: 300px;
+    }
+
+    .footer{
+        padding: 30px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }
